@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header {
+    height:18px;
+    background: black;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.location-container {
+    padding-bottom: 3px;
+}
+
+.location {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.middle-header {
+    position: sticky;
+    background: white;
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+}
+
+.middle-header-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.datetime-container {
+    width: 150px;
+    padding-top: 21px;
+}
+
+.datetime {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.school-title-container {
+    margin-left: 600px;
+    margin-right: 500px;
+    padding-left: 7px;
+    padding-top: 12px;
+    width: 290px;
+    height: 100%;
+}
+
+.school-title {
+    font-family: "Great Vibes", cursive;
+    font-weight: 580;
+    font-style: normal;
+    font-size: 37px;
+}
+
+.nav {
+    padding-top: 26px;
+    width: 270px;
+}
+
+.auth-list {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+
+.list-item-image img {
+    height: 25px;
+}
+
+.bottom-header {
+    height: 55px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.bottom-header-container {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.bottom-header-nav {
+    margin-top: 8px;
+    width: 1000px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-item:last-child {
+    margin-right: none;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    word-break: break-word;
+  }
+
+.nav-item-link:hover {
+    color:rgb(1, 107, 227);
+    transition: color 1s ease;
+}
+
+.searchbar-container {
+    display: flex;
+    width: 600px;
+}
+
+.searchbar {
+    margin-top: 12px;
+    width: 95%;
+    height: 34px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid lightgray;
+}
+
+.searchbar-field {
+    height: 28px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.searchbar-btn {
+    margin-top: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+    border:none;
+    background: none;
+    z-index: 1;
+}
+
+#Name {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.container {
+    border-radius: 15px;
+    padding: 20px 80px 20px 80px;
+    width: 70%;
+    margin: auto;
+}
+
+.about {
+    width: 70%;
+    border-radius: 25px;
+    background: linear-gradient(to right bottom,rgba(163, 163, 163, 0.4), 60%, rgba(221, 221, 221, 0.4));
+    padding: 49px 25px 10px 25px;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.image img {
+    border-radius: 15px;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 500px;
+}
+
+.banners-container {
+    border-radius: 15px;
+    padding-left: 20px;
+    border: 4px solid rgb(159, 220, 255);
+    margin-bottom: 65px;
+}
+
+.block-title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(0, 0, 0);
+    width: 600px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.school-results-container {
+    border-radius: 25px;
+    height: 170px;
+    padding: 26px 45px 20px 45px;
+    background: rgb(127, 180, 250, 0.7);
+    margin-bottom: 65px;
+}
+
+.teachers-results-container {
+    border-radius: 25px;
+    margin: auto;
+    width: 82%;
+    height: 170px;
+    padding: 26px 45px 20px 45px;
+    background: rgb(127, 180, 250, 0.7);
+    margin-bottom: 45px;
+}
+
+.info-block-content {
+    justify-content: space-between;
+    display: flex;
+}
+
+.info-block-content-item {
+    width: 250px;
+    height: 120px;
+    padding-left: 5px;
+    border-radius: 15px;
+    background: rgb(220, 216, 255, 0.5);
+}
+
+.text-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 89, 223);
+    text-align: center;
+    font-size: 60px;
+}
+
+.text-default {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    text-wrap:pretty;
+}
+
+.teachers-block-container {
+    background: linear-gradient(to right bottom,rgba(163, 163, 163, 0.4), 60%, rgba(221, 221, 221, 0.4));
+    padding: 25px 40px 25px 40px;
+    border-radius: 25px
+}
+
+.director-block-content {
+    display: flex;
+    border-radius: 15px;
+    padding: 15px 25px 10px 25px;
+    background: rgba(213, 253, 248, 0.555);
+    margin-bottom: 55px;
+}
+
+.director-photo {
+    width: 30%;
+}
+
+.director-contact-info {
+    width: 30%;
+}
+
+.director-contact-info .name {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.director-contact-info .position {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(25, 147, 253);
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.director-contact-info .info {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.director-contact-info h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    margin-bottom: 13px;
+}
+
+.director-block-text {
+    width: 40%;
+}
+
+.director-block-text p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.director-photo img {
+    border-radius: 15px;
+}
+
+.teachers-carousel-item {
+    padding: 15px;
+    border-radius: 15px;
+    background: #ccc;
+}
+
+.teachers-carousel-item img {
+    border-radius: 25px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.teachers-carousel-item .name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.teachers-carousel-item .position {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(25, 147, 253);
+    font-size: 13px;
+}
+
+.up-arrow-container {
+    width: 59px;
+    height: 55px;
+    position:fixed;
+    margin-left:1840px;
+    border-radius: 20px;
+    background: rgb(142, 142, 142);
+    opacity: 40%;
+}
+
+.up-arrow-btn {
+    border: none;
+    background: none;
+    z-index: 1;
+}
+
+.up-arrow-btn img{
+    height: 45px;
+    width: 45px;
+}
+
+footer {
+    background: #1D232F;
+    height: 450px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+.footer-container {
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 40px 20px 10px 20px;
+    border-bottom: 2px solid white;
+    display: flex;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-bottom {
+    width: 70%;
+    margin: auto;
+}
+
+.footer-contacts {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 0px 20px 10px 20px;
+}
+
+.footer-contacts-title {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.footer-contacts-value {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+#popup {
+    height: 170px;
+    width: 640px;
+    display: none;
+    position: fixed;
+    bottom: -7%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 1000;
+  }
+
+  #popup h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 7px;
+    color: rgb(0, 31, 59);
+  }
+
+  #popup p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+  }
+
+  #popup .submit {
+    position: fixed;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #001124b2;
+    bottom: 10px;
+    right: 10px;
+    height: 45px;
+    width: 190px;
+    border-radius: 15px;
+    background: rgb(109, 167, 255);
+    border: 1px solid rgb(74, 153, 255);
+  }
+
+  #popup .submit:hover {
+    background-color: rgb(9, 116, 255);
+    transition: background-color 1s ease;
+  }
+
+  #popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
